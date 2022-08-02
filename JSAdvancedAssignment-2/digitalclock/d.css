@@ -1,0 +1,56 @@
+body {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#clockcontainer {
+    color: blueviolet;
+    font-size: 60px;
+    font-family: orbitron;
+    letter-spacing: 7px;
+}
+
+#datecontainer {
+    color: blueviolet;
+    /* text-align: center; */
+    align-items: center;
+    font-size: larger;
+    /* background-color: bisque; */
+}
+
+.maincontainer {
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    color: aliceblue;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.green {
+    background-color: greenyellow;
+    color: rgb(173, 170, 106);
+    margin-top: 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+    color: azure;
+    margin-top: 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
